@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+  /* Parallax Effect */
+        .Vinashree {
+            background-image: url('cd.jpg');
+            background-attachment: fixed; /* Parallax effect */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh; /* Full viewport height */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Content sections */
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Smooth Scroll */
+        html, body {
+            scroll-behavior: smooth;
+        }
+
+        /* Optional: Style for the navigation */
+        .navbar {
+            margin-bottom: 0;
+        }
+
+        .navbar-nav li a {
+            color: #fff !important;
+        }
+
+        /* Icon Section */
+        .icon-box {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 200px;
+        }
+
+        .icon-box i {
+            font-size: 3em;
+            color: #5bc0de;
+        }
+
+        .icon-box h3 {
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+ </style>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Vinashree Website</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#section1">Home</a></li>
+      <li><a href="#section2">About</a></li>
+      <li><a href="#section3">portfolio</a></li>
+      <li><a href="#section4">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+ <!--Vinashree Website-->
+ <div id="section1" class="Vinashree Website"><div>
+ 	   <h1> Welcome to My Website</h1>
+ 	   <p> Your tagline or introduction goes here.</p>
+     </div>
+ </div><div id="section2" class="section">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="icon-box">
+                 <span class="glyphicon glyphicon-refresh" style="font-size: 32px"></span>
+                <h3>Custom Solutions</h3>
+                <p>We provide custom solutions tailored to your needs.</p>
+            </div>
+            <div class="icon-box">
+                 <span class="glyphicon glyphicon-user" style="font-size: 32px"></span>
+                <h3>Dedicated Team</h3>
+                <p>Our team is committed to bringing your vision to life.</p>
+            </div>
+            <div class="icon-box">
+                <span class="glyphicon glyphicon-cloud" style="font-size: 32px"></span>
+
+               
+                <h3>Cloud-Based</h3>
+                <p>We leverage cloud technology to enhance your business operations.</p>
+            </div>
+        </div>
+    </div>
+    <div id="section3" class="Vinashree">
+    <div class="container text-center">
+        <h1>Our Portfolio</h1>
+        <p>Showcase some of the work you've done or projects completed.</p>
+        <div class="row">
+            <!-- Portfolio Image 1 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="3.jpg" alt="Project 1" class="img-thumbnail">
+                    <div class="overlay">
+                        <p>Project 1 Description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Image 2 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="4.jpg" alt="Project 2" class="img-thumbnail">
+                    <div class="overlay">
+                        <p>Project 2 Description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Image 3 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="5.jpg" alt="Project 3" class="img-thumbnail">
+                    <div class="overlay">
+                        <p>Project 3 Description</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--section4-->
+<div id="section4" class="Vinashree">
+        <div class="container text-center">
+        <h1>Contact us</h1>
+    <form>
+  <div class="form-group">
+    <label for="exampleInputFullName1">Full Name</label>
+    <input type="fullname" class="form-control" id="exampleInputFullName1" >
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmailAddress1">Email Address</label>
+    <input type="emailaddress" class="form-control" id="exampleInputEmailAddress1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+   <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputMessage1">Message</label>
+    <input type="Message" class="form-control" id="exampleInputMessage1">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+</body>
+</html>
+
+
+
+</body>
+</html>
